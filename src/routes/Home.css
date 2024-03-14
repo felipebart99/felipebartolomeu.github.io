@@ -1,0 +1,54 @@
+.primario{
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    margin-left: 50px;
+    margin-top: -200px;
+    
+}
+.geral{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 400px;
+    margin-top: 100px;
+}
+img.minhaFoto{
+    width: 400px; 
+    height: auto;
+    border-radius: 50rem;
+    margin-top: -100px;
+    margin-right: 200px;
+}
+.icones{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+.btn {
+    background-color: #4CAF50; /* cor de fundo */
+    border: none; /* remove a borda */
+    color: white; /* cor do texto */
+    padding: 20px 32px; /* preenchimento interno (aumenta a altura) */
+    text-align: center; /* alinhamento do texto */
+    text-decoration: none; /* remove sublinhado */
+    display: inline-block; /* exibição como bloco */
+    font-size: 20px; /* aumenta o tamanho da fonte */
+    margin: 4px 10px; /* margem externa */
+    cursor: pointer; /* cursor ao passar por cima */
+    border-radius: 8px; /* bordas arredondadas */
+    transition-duration: 0.4s; /* duração da transição */
+    width: 200px; /* diminui a largura do botão */
+  }
+  .btn a {
+    text-decoration: none; /* Remove o sublinhado do link dentro do botão */
+}
+  
+  .btn:hover {
+    background-color: #45a049; /* cor de fundo ao passar por cima */
+    color: white; /* cor do texto ao passar por cima */
+  }
+  h2{
+    padding-top: 40px; /* Ajuste o valor conforme necessário */
+    margin-bottom: 5px;
+}
