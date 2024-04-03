@@ -8,12 +8,13 @@ const Home = () => {
   return (
     <div className='geral'>
       <div className='primario'>
-        <p>
+        <div>
         <h2>Hello, world!!</h2>
-        I am a <br/>
+        <p>I am a <br/>
         Web Developer.<br/>
         Welcome to my portfolio WebSite
         </p>
+        </div>
         <button className='btn'>
           <Link to="/about">More about me</Link>
         </button>
