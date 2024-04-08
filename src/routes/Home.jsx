@@ -9,7 +9,7 @@ const Home = () => {
     <div className='geral'>
       <div className='primario'>
         <div>
-        <h2>Hello, world!!!</h2>
+        <h2>Hello, world!!</h2>
         <p>I am a <br/>
         Web Developer.<br/>
         Welcome to my portfolio WebSite
@@ -32,7 +32,7 @@ const Home = () => {
 
         </div>
         <div className='secundario'>
-          <img src="./minhafoto.jpeg" alt="foto de perfil" className='minhaFoto' />
+          <img src="../../img/minhafoto.jpeg" alt="foto de perfil" className='minhaFoto' />
         </div>
       
     </div>
