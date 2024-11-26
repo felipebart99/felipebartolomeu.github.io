@@ -4,7 +4,7 @@
   align-items: flex-start; /* Isso garante que o conteúdo comece no topo */
   height: 100vh; /* Isso garante que o contêiner ocupe toda a altura da janela */
   padding: 20px; /* Adicione margem interna conforme necessário */
-  background-color:  #e6f7ff;;
+  background-color: #e6f7ff;
 }
 
 header {
@@ -14,16 +14,14 @@ header {
   align-items: center;
   width: 100%;
   margin-bottom: 20px;
-  color:black;
+  color: black;
 }
-h1.tituloLogo{
+h1.tituloLogo {
   font-size: 40px;
   margin-left: 50px;
   background-color: rgb(202, 243, 243);
   border-radius: 1rem;
   padding: 15px;
-  
 }
-
 
 /* Estilos para o menu de navegação podem ser adicionados ao seu arquivo App.css também */
