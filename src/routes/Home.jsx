@@ -53,7 +53,7 @@ const Home = () => {
         </div>
         <div className="col-md-5 text-center">
           <img
-            src="..\public\img\minhafoto.jpeg"
+            src="\img\minhafoto.jpeg"
             alt="foto de perfil"
             className="rounded-circle img-fluid"
           />
