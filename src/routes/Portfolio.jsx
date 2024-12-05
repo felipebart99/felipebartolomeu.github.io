@@ -18,10 +18,14 @@ const Portfolio = () => {
         <p>
           Landing Page project made with HTML, CSS and JavaScript for GTA V.
         </p>
-        <img src="/img/imgGta.png" alt="imagem 2" className="imgP" />
+        <a href="https://gta-v-mu.vercel.app">
+          <img src="/img/imgGta.png" alt="imagem 2" className="imgP" />
+        </a>
       </div>
       <div className="estilo1">
-        <img src="/img/imgCalculator.png" alt="imagem 3" className="imgP" />
+        <a href="https://calculadora-react-eta-sable.vercel.app">
+          <img src="/img/imgCalculator.png" alt="imagem 3" className="imgP" />
+        </a>
         <p>
           {" "}
           Calculator made with React.JS where for the first time I used Material
@@ -36,7 +40,9 @@ const Portfolio = () => {
           it shows data on humidity, wind speed and current state of the sky.
           Project made with HTML, CSS and JS.
         </p>
-        <img src="/img/imgApiClima.png" alt="imagem 4" className="imgP" />
+        <a href="https://api-clima-snowy.vercel.app">
+          <img src="/img/imgApiClima.png" alt="imagem 4" className="imgP" />
+        </a>
       </div>
     </div>
   );
