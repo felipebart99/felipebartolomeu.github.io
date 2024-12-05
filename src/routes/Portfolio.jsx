@@ -6,6 +6,12 @@ const Portfolio = () => {
     <div className="wrapper">
       <h1 className="tituloP">Principais Projetos</h1>
       <div className="estilo1">
+        <p>Website for a fictional hotel, built with Bootstrap.</p>
+        <a href="https://bart-hotel.vercel.app">
+          <img src="/img/bartHotelimg.png" alt="imagem 2" className="imgP" />
+        </a>
+      </div>
+      <div className="estilo1">
         <a href="https://todo-list-sooty-sigma-85.vercel.app">
           <img src="/img/imgTodoList.png" alt="imagem 1" className="imgP" />
         </a>
