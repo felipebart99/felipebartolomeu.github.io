@@ -6,7 +6,9 @@ const Portfolio = () => {
     <div className="wrapper">
       <h1 className="tituloP">Principais Projetos</h1>
       <div className="estilo1">
-        <img src="/img/imgTodoList.png" alt="imagem 1" className="imgP" />
+        <a href="https://todo-list-sooty-sigma-85.vercel.app">
+          <img src="/img/imgTodoList.png" alt="imagem 1" className="imgP" />
+        </a>
         <p>
           To do List made with React. It has search, filter, sorting, task
           creation, deletion and categorization functionalities
