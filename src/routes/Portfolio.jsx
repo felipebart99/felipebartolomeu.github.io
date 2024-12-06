@@ -8,7 +8,7 @@ const Portfolio = () => {
       <div className="estilo1">
         <p>Website for a fictional hotel, built with Bootstrap.</p>
         <a href="https://bart-hotel.vercel.app">
-          <img src="/img/bartHotelimg.png" alt="imagem 2" className="imgP" />
+          <img src="\img\BartHotelimg.png" alt="imagem 2" className="imgP" />
         </a>
       </div>
       <div className="estilo1">
