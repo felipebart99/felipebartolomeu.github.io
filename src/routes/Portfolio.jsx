@@ -6,6 +6,51 @@ const Portfolio = () => {
     <div className="wrapper">
       <h1 className="tituloP">Principais Projetos</h1>
       <div className="estilo1">
+        <p>
+          Disney+ clone website with mobile adaptation, hosted on Vercel, using
+          Gulp and SASS.
+        </p>
+        <a href="https://clone-disneyplus-wtgy.vercel.app">
+          <img src="\img\disneyPlusimg.png" alt="imagem 2" className="imgP" />
+        </a>
+      </div>
+      <div className="estilo1">
+        <a href="https://nilotattoo.site">
+          <img src="\img\niloTattooimg.png" alt="imagem 1" className="imgP" />
+        </a>
+        <p>
+          Landing page created to promote the work of tattoo artist Danilo,
+          built using the website builder tools provided by Hostinger's
+          platform.
+        </p>
+      </div>
+      <div className="estilo1">
+        <p>
+          Developed a responsive and SEO-optimized website for a psychologist,
+          focused on improving online visibility and facilitating appointment
+          scheduling. The project included creating an intuitive interface,
+          integrating communication tools (such as WhatsApp), and implementing
+          design best practices to ensure a smooth and accessible user
+          experience across devices.
+        </p>
+        <a href="https://mvanuzapsicologa.com">
+          <img src="\img\vanuzaSiteimg.png" alt="imagem 2" className="imgP" />
+        </a>
+      </div>
+      <div className="estilo1">
+        <a href="https://bart-english.vercel.app">
+          <img
+            src="\img\EnglishCourseimg.png"
+            alt="imagem 1"
+            className="imgP"
+          />
+        </a>
+        <p>
+          Fictional website created to sell an English course, built with
+          Bootstrap.
+        </p>
+      </div>
+      <div className="estilo1">
         <p>Website for a fictional hotel, built with Bootstrap.</p>
         <a href="https://bart-hotel.vercel.app">
           <img src="\img\BartHotelimg.png" alt="imagem 2" className="imgP" />
