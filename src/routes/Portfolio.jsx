@@ -6,6 +6,22 @@ const Portfolio = () => {
     <div className="wrapper">
       <h1 className="tituloP">Principais Projetos</h1>
       <div className="estilo1">
+        <a
+          href="https://alisonbritoeng.com.br"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="\img\alisonBritoimg.png" alt="imagem 1" className="imgP" />
+        </a>
+        <p>
+          Freelance work completed for engineer Alison Brito. The website is a
+          landing page created using Hostinger's website builder. Choosing the
+          website builder allowed us to deliver a quick and cost-effective
+          solution, ensuring a functional and visually appealing website within
+          the defined timeframe and budget
+        </p>
+      </div>
+      <div className="estilo1">
         <p>
           Disney+ clone website with mobile adaptation, hosted on Vercel, using
           Gulp and SASS.

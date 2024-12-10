@@ -1,23 +1,72 @@
+/* Botão responsivo */
 .btn {
   background-color: #4caf50; /* cor de fundo */
   border: none; /* remove a borda */
   color: white; /* cor do texto */
-  padding: 20px 32px; /* preenchimento interno (aumenta a altura) */
+  padding: 15px 20px; /* ajuste no preenchimento para telas menores */
   text-align: center; /* alinhamento do texto */
-  text-decoration: none; /* remove sublinhado */
-  display: inline-block; /* exibição como bloco */
-  font-size: 20px; /* aumenta o tamanho da fonte */
-  margin: 4px 10px; /* margem externa */
-  cursor: pointer; /* cursor ao passar por cima */
+  font-size: 16px; /* tamanho da fonte menor */
   border-radius: 8px; /* bordas arredondadas */
   transition-duration: 0.4s; /* duração da transição */
-  width: 250px; /* diminui a largura do botão */
-}
-.btn a {
-  text-decoration: none; /* Remove o sublinhado do link dentro do botão */
+  width: 100%; /* largura total em telas pequenas */
+  max-width: 250px; /* largura máxima para evitar botões muito grandes */
 }
 
 .btn:hover {
-  background-color: #45a049; /* cor de fundo ao passar por cima */
-  color: white; /* cor do texto ao passar por cima */
+  background-color: #45a049;
+  color: white;
+}
+
+/* Ajuste do texto */
+h2 {
+  font-size: 48px; /* tamanho menor para dispositivos menores */
+}
+
+p {
+  font-size: 24px; /* ajuste no tamanho da fonte */
+  line-height: 1.5; /* espaçamento entre linhas */
+}
+
+/* Imagem responsiva */
+img.rounded-circle {
+  width: 100%;
+}
+
+/* Links de ícones */
+a {
+  color: inherit;
+  transition: transform 0.2s ease-in-out;
+}
+
+a:hover {
+  transform: scale(1.1); /* leve aumento ao passar o mouse */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  h2 {
+    font-size: 36px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+  img.rounded-circle {
+    width: 70%; /* reduz o tamanho da imagem em telas menores */
+  }
+
+  .d-flex {
+    flex-direction: column; /* alinhar os ícones em coluna */
+    gap: 15px; /* espaçamento entre os ícones */
+  }
+
+  .container .row {
+    flex-direction: column-reverse; /* troca a ordem das colunas */
+  }
+
+  .col-md-7,
+  .col-md-5 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
 }

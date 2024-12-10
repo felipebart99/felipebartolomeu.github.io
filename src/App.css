@@ -7,22 +7,4 @@
   background-color: #e6f7ff;
 }
 
-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  margin-bottom: 20px;
-  color: black;
-  background-color: #e6f7ff;
-}
-h1.tituloLogo {
-  font-size: 40px;
-  margin-left: 50px;
-  background-color: rgb(202, 243, 243);
-  border-radius: 1rem;
-  padding: 15px;
-}
-
 /* Estilos para o menu de navegação podem ser adicionados ao seu arquivo App.css também */

@@ -1,18 +1,68 @@
-ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 200px;
-  padding-right: 50px;
-  font-size: 30px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+/* Estilização da Logo */
+h1.tituloLogo {
+  font-size: 40px;
+  background-color: rgb(202, 243, 243);
+  border-radius: 1rem;
+  padding: 10px 20px;
+  white-space: nowrap;
+  margin: 0;
 }
+
+/* Ajuste do Container */
+.custom-navbar .container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+/* Adicionando Separação entre Título e Links */
+.navbar-header {
+  margin-right: 30vw;
+}
+
+/* Estilo da Navbar */
 .custom-navbar {
   background-color: #e6f7ff;
 }
-ul li:hover {
+
+/* Ajuste dos Links */
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  font-size: 28px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0;
+  padding-right: 10px;
+}
+
+.nav-link {
+  padding: 8px 15px;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-link:hover {
   background-color: rgb(202, 243, 243);
-  padding: 5px;
-  border-radius: 50%;
+  color: #0056b3;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  background-color: #b3e0ff;
+  color: #003366;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+  h1.tituloLogo {
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
 }
