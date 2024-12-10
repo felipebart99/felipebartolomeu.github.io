@@ -9,6 +9,9 @@ h1.tituloLogo {
 }
 
 /* Ajuste do Container */
+.custom-navbar {
+  width: 100vw;
+}
 .custom-navbar .container-fluid {
   display: flex;
   align-items: center;
@@ -34,7 +37,7 @@ ul {
   font-size: 28px;
   font-family: Georgia, "Times New Roman", Times, serif;
   margin: 0;
-  padding-right: 10px;
+  padding-right: 80px;
 }
 
 .nav-link {
