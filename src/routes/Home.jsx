@@ -10,12 +10,10 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="container mt-5 pt-5">
-      <div className="row align-items-center ms-5">
-        <div className="d-flex flex-column gap-5 col-md-7 text-center text-md-start ">
-          <h2 className="fw-bold" style={{ fontSize: "60px" }}>
-            Hello, world!!
-          </h2>
+    <div className="container mt-lg-5 pt-lg-5 ">
+      <div className="col-12 row align-items-center mt-3 mb-3">
+        <div className="d-flex flex-column gap-md-3 col-md-6 text-center">
+          <h2 className="fw-bold responsive-heading">Hello, world!!</h2>
           <p className="fw-bold" style={{ fontSize: "30px" }}>
             I am a <br />
             Web Developer.
@@ -55,7 +53,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-5 text-center">
+        <div className="col-md-6 text-center">
           <img
             src="\img\minhafoto.jpeg"
             alt="foto de perfil"

@@ -17,19 +17,13 @@
   color: white;
 }
 
-/* Ajuste do texto */
-h2 {
-  font-size: 48px; /* tamanho menor para dispositivos menores */
-}
-
-p {
-  font-size: 24px; /* ajuste no tamanho da fonte */
-  line-height: 1.5; /* espaçamento entre linhas */
+.responsive-heading {
+  font-size: 60px; /* Tamanho padrão */
 }
 
 /* Imagem responsiva */
 img.rounded-circle {
-  width: 100%;
+  max-width: 80%;
 }
 
 /* Links de ícones */
@@ -44,29 +38,18 @@ a:hover {
 
 /* Responsividade */
 @media (max-width: 768px) {
-  h2 {
-    font-size: 36px;
-  }
-
-  p {
-    font-size: 18px;
+  .responsive-heading {
+    font-size: 50px; /* Tamanho menor para telas pequenas */
   }
   img.rounded-circle {
-    width: 70%; /* reduz o tamanho da imagem em telas menores */
+    max-width: 50%; /* reduz o tamanho da imagem em telas menores */
   }
 
   .d-flex {
-    flex-direction: column; /* alinhar os ícones em coluna */
     gap: 15px; /* espaçamento entre os ícones */
   }
 
   .container .row {
     flex-direction: column-reverse; /* troca a ordem das colunas */
-  }
-
-  .col-md-7,
-  .col-md-5 {
-    text-align: center;
-    margin-bottom: 20px;
   }
 }

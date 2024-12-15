@@ -2,7 +2,4 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start; /* Isso garante que o conteúdo comece no topo */
-  padding: 20px; /* Adicione margem interna conforme necessário */
 }
-
-/* Estilos para o menu de navegação podem ser adicionados ao seu arquivo App.css também */
