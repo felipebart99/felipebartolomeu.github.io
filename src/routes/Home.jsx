@@ -10,15 +10,15 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="container mt-lg-5 pt-lg-5 ">
-      <div className="col-12 row align-items-center mt-3 mb-3">
+    <div className="container mt-lg-5 pt-lg-3 ">
+      <div className="row col-12 align-items-center  mt-3 mb-3">
         <div className="d-flex flex-column gap-md-3 col-md-6 text-center">
           <h2 className="fw-bold responsive-heading">Hello, world!!</h2>
           <p className="fw-bold" style={{ fontSize: "30px" }}>
             I am a <br />
             Web Developer.
             <br />
-            Welcome to my portfolio WebSite
+            Welcome to my Portfolio WebSite
           </p>
           <div className="d-flex flex-column" style={{ gap: "30px" }}>
             <div>
