@@ -23,7 +23,7 @@
 
 /* Imagem responsiva */
 img.rounded-circle {
-  max-width: 80%;
+  max-width: 70%;
 }
 
 /* Links de ícones */
@@ -38,18 +38,23 @@ a:hover {
 
 /* Responsividade */
 @media (max-width: 768px) {
+  /* Reduz o tamanho do título */
   .responsive-heading {
     font-size: 50px; /* Tamanho menor para telas pequenas */
   }
+
+  /* Reduz o tamanho da imagem */
   img.rounded-circle {
-    max-width: 50%; /* reduz o tamanho da imagem em telas menores */
+    max-width: 50%; /* Tamanho máximo da imagem em telas menores */
   }
 
-  .d-flex {
-    gap: 15px; /* espaçamento entre os ícones */
+  /* Espaçamento entre os ícones */
+  .d-flex.gap-icons {
+    gap: 15px; /* Adiciona espaçamento apenas onde necessário */
   }
 
-  .container .row {
-    flex-direction: column-reverse; /* troca a ordem das colunas */
+  /* Ajusta o layout para empilhar as colunas */
+  .flex-column-reverse-sm {
+    flex-direction: column-reverse; /* Inverte a ordem dos elementos */
   }
 }

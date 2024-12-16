@@ -10,23 +10,25 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="container mt-lg-5 pt-lg-3 ">
-      <div className="row col-12 align-items-center  mt-3 mb-3">
-        <div className="d-flex flex-column gap-md-3 col-md-6 text-center">
-          <h2 className="fw-bold responsive-heading">Hello, world!!</h2>
+    <div className="container-fluid mx-auto d-flex align-items-center justify-content-center min-vh-100">
+      <div className="d-flex flex-column-reverse-sm col-12 align-items-center mt-3 mb-3">
+        {/* Coluna de Texto */}
+        <div className="d-flex flex-column gap-icons col-md-6 text-center">
+          <h2 className="fw-bold responsive-heading pb-md-5">Hello, world!!</h2>
           <p className="fw-bold" style={{ fontSize: "30px" }}>
             I am a <br />
             Web Developer.
             <br />
             Welcome to my Portfolio WebSite
           </p>
-          <div className="d-flex flex-column" style={{ gap: "30px" }}>
-            <div>
-              <Link to="/about" className="btn btn-success">
-                More about me
-              </Link>
-            </div>
-            <div style={{ gap: "30px" }}>
+          <div
+            className="d-flex flex-column align-items-center pt-md-5 "
+            style={{ gap: "30px" }}
+          >
+            <Link to="/about" className="btn btn-success">
+              More about me
+            </Link>
+            <div className="d-flex gap-icons justify-content-center">
               <a
                 href="https://github.com/felipebart99"
                 target="_blank"
@@ -53,9 +55,11 @@ const Home = () => {
             </div>
           </div>
         </div>
+
+        {/* Coluna da Imagem */}
         <div className="col-md-6 text-center">
           <img
-            src="\img\minhafoto.jpeg"
+            src="/img/minhafoto.jpeg"
             alt="foto de perfil"
             className="rounded-circle img-fluid"
           />

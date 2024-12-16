@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -26,13 +27,18 @@ const About = () => {
         </p>
       </div>
       <div className="txt2">
-        <h2>COMPETÊNCIAS:</h2>
+        <h2>Skills:</h2>
         <p>
           HTML5, CSS3, Javascript, ReactJs, React Native, JQuery, Bootstrap,
           SASS, Gulp, LESS, Webpack Básico, Node, UX, Git, Github, Banco de
           Dados.
         </p>
-        <p>Inglês Intermediário</p>
+        <p>Intermediate English</p>
+      </div>
+      <div>
+        <Link to="/portfolio" className="btn btn-success mt-4">
+          Projects
+        </Link>
       </div>
     </div>
   );
