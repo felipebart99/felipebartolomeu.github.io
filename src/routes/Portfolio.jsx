@@ -5,7 +5,7 @@ const Portfolio = () => {
   return (
     <div className="wrapper">
       <h1 className="tituloP">Principais Projetos</h1>
-      <div className="estilo1">
+      <div className="estilo1 destaque">
         <p>
           Freelance work I did to promote a fair in Caruaru that showcases
           various brands of bags, accessories, and shoes.
@@ -34,7 +34,7 @@ const Portfolio = () => {
           the defined timeframe and budget
         </p>
       </div>
-      <div className="estilo1">
+      <div className="estilo1 destaque">
         <p>
           Disney+ clone website with mobile adaptation, hosted on Vercel, using
           Gulp and SASS.
@@ -61,7 +61,7 @@ const Portfolio = () => {
           platform.
         </p>
       </div>
-      <div className="estilo1">
+      <div className="estilo1 destaque">
         <p>
           Developed a responsive and SEO-optimized website for a psychologist,
           focused on improving online visibility and facilitating appointment
@@ -95,7 +95,7 @@ const Portfolio = () => {
           Bootstrap.
         </p>
       </div>
-      <div className="estilo1">
+      <div className="estilo1 destaque">
         <p>Website for a fictional hotel, built with Bootstrap.</p>
         <a
           href="https://bart-hotel.vercel.app"
@@ -118,7 +118,7 @@ const Portfolio = () => {
           creation, deletion and categorization functionalities
         </p>
       </div>
-      <div className="estilo1">
+      <div className="estilo1 destaque">
         <p>
           Landing Page project made with HTML, CSS and JavaScript for GTA V.
         </p>
@@ -146,7 +146,7 @@ const Portfolio = () => {
           operations through the UseState Hook.
         </p>
       </div>
-      <div className="estilo1">
+      <div className="estilo1 destaque">
         <p>
           Weather application with OpenWeather API. In addition to temperature,
           it shows data on humidity, wind speed and current state of the sky.
