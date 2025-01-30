@@ -6,6 +6,19 @@ const Portfolio = () => {
     <div className="wrapper">
       <h1 className="tituloP">Principais Projetos</h1>
       <div className="estilo1">
+        <p>
+          Freelance work I did to promote a fair in Caruaru that showcases
+          various brands of bags, accessories, and shoes.
+        </p>
+        <a
+          href="https://feiramodanordeste.com.br"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="\img\fotoFeiraPorti.png" alt="imagem 2" className="imgP" />
+        </a>
+      </div>
+      <div className="estilo1">
         <a
           href="https://alisonbritoeng.com.br"
           target="_blank"
