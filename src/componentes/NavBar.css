@@ -62,7 +62,7 @@ ul {
   ul {
     flex-direction: column;
     gap: 10px;
-    margin-top: 5px;
+    padding-top: 15px;
   }
   h1.tituloLogo {
     font-size: 30px;
