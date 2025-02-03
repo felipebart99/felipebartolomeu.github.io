@@ -4,7 +4,7 @@ import "./Portfolio.css";
 const Portfolio = () => {
   return (
     <div className="wrapper">
-      <h1 className="tituloP">Principais Projetos</h1>
+      <h1 className="tituloP">Main Projects</h1>
       <div className="estilo1 destaque">
         <p>
           Freelance work I did to promote a fair in Caruaru that showcases
@@ -34,6 +34,7 @@ const Portfolio = () => {
           the defined timeframe and budget
         </p>
       </div>
+
       <div className="estilo1 destaque">
         <p>
           Disney+ clone website with mobile adaptation, hosted on Vercel, using
@@ -45,6 +46,42 @@ const Portfolio = () => {
           rel="noopener noreferrer"
         >
           <img src="\img\disneyPlusimg.png" alt="imagem 2" className="imgP" />
+        </a>
+      </div>
+      <div className="estilo1">
+        <a
+          href="https://www.linkedin.com/posts/felipe-bartolomeu_foi-de-grande-import%C3%A2ncia-participar-do-activity-7266584960759726080-MD5O?utm_source=share&utm_medium=member_desktop"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="https://media.licdn.com/dms/image/v2/D4D22AQFmzKXZjg2xPA/feedshare-shrink_800/feedshare-shrink_800/0/1732488859006?e=1741219200&v=beta&t=eZatNCN34q_Png9IhB_PhyBJ9PTXB_2FJJollF7dhyA"
+            alt="imagem 1"
+            className="imgP"
+          />
+        </a>
+        <p>
+          I developed a React Native application to monitor soil humidity. The
+          MVP was delivered by collecting data through a serial port and making
+          it available on a server. I built the server using NodeJS and Express.
+        </p>
+      </div>
+      <div className="estilo1 destaque">
+        <p>
+          Mario game made with HTML, CSS, and JavaScript. The goal of the game
+          is to jump over the objects that appear in front without touching
+          them..
+        </p>
+        <a
+          href="https://jogo-mario-coral.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="https://media.licdn.com/dms/image/v2/D4D22AQGEQTcRzPYe1w/feedshare-shrink_800/feedshare-shrink_800/0/1683935455429?e=1741219200&v=beta&t=XGxtIEaYekRrHwlSi3fpWpwmj1nlMoYJ0SI2QyZ1XtE"
+            alt="imagem 2"
+            className="imgP"
+          />
         </a>
       </div>
       <div className="estilo1">

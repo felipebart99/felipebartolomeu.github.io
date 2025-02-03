@@ -28,7 +28,7 @@
 }
 .imgP {
   width: 500px;
-  height: auto;
+  height: 250px;
   border-radius: 1rem;
 }
 
@@ -43,6 +43,7 @@
   .imgP {
     width: 100%;
     height: auto;
+    max-height: 250px;
     border-radius: 1rem;
   }
 }

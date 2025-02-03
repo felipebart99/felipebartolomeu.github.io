@@ -7,19 +7,19 @@ const About = () => {
     <div className="texto">
       <div>
         <p>
-          Front-end engineer in training at EBAC – British School of Creative
-          Arts and Technology, currently pursuing a degree in Computer Science
-          (UNIFBV). <br /> A professional with a collaborative, creative,
-          analytical, and proactive profile. <br /> I have experience in
-          developing Landing Pages and full-stack projects. <br /> I developed a
-          responsive and SEO-optimized website for a psychologist, aimed at
-          improving online visibility and facilitating appointment scheduling.
-          Additionally, I developed an application that collects data from DHT
-          sensors and displays it on an app screen, notifying the user when
-          values exceed the desired limits.
-          <br /> ● Skills in responsive web development; <br /> ● Knowledge of
-          Agile Methodologies;
-          <br /> ● Basic Design understanding.
+          Front-end Engineer in training at EBAC – British School of Creative
+          Arts and Technology, with a degree in Computer Science from UNIFBV. I
+          have experience in developing Landing Pages and full-stack projects. I
+          am a collaborative, creative, analytical, and proactive professional.
+          I have developed responsive, SEO-optimized websites for various
+          clients, focusing on improving online visibility and facilitating
+          communication between professionals and their clients. Additionally, I
+          have built applications that collect data from DHT sensors and display
+          it on a mobile app, notifying users when values exceed the desired
+          limits.
+          <br /> ● Development of websites using React.js and Bootstrap
+          <br /> ● Knowledge of Agile methodologies such as Scrum
+          <br /> ● Basic understanding of UI design with Figma
           <br />I am recognized for my sociability and tranquility, as well as
           my ability to assimilate new content with ease. I can say with
           conviction that my top 3 Soft Skills are teamwork, punctuality and
@@ -30,8 +30,7 @@ const About = () => {
         <h2>Skills:</h2>
         <p>
           HTML5, CSS3, Javascript, ReactJs, React Native, JQuery, Bootstrap,
-          SASS, Gulp, LESS, Webpack Básico, Node, UX, Git, Github, Banco de
-          Dados.
+          SASS, Gulp, LESS, Webpack Basic, Node, UX, Git, Github, DataBases.
         </p>
         <p>Intermediate English</p>
       </div>
