@@ -18,10 +18,11 @@
   font-size: x-large;
   padding-bottom: 50px;
   margin: 10px;
+  padding: 50px;
 }
 .destaque {
   background-color: rgba(0, 0, 0, 0.056);
-  padding: 30px;
+  padding: 50px;
   width: 100vw;
   display: flex;
   justify-content: space-evenly;
