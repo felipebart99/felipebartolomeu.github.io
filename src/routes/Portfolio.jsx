@@ -5,6 +5,22 @@ const Portfolio = () => {
   return (
     <div className="wrapper">
       <h1 className="tituloP">Main Projects</h1>
+      <div className="estilo1">
+        <a
+          href="https://fruetengenharia.com.br"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="\img\image.png" alt="imagem 1" className="imgP" />
+        </a>
+        <p>
+          Freelance project completed for engineer André Fruet. This landing
+          page was developed using Hostinger's website builder, providing a fast
+          and budget-friendly solution. By leveraging the platform’s tools, we
+          ensured an efficient delivery while maintaining a professional and
+          visually appealing design.
+        </p>
+      </div>
       <div className="estilo1 destaque">
         <p>
           Freelance work I did to promote a fair in Caruaru that showcases
