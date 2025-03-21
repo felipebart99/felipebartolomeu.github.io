@@ -70,11 +70,7 @@ const Portfolio = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
-            src="https://media.licdn.com/dms/image/v2/D4D22AQFmzKXZjg2xPA/feedshare-shrink_800/feedshare-shrink_800/0/1732488859006?e=1741219200&v=beta&t=eZatNCN34q_Png9IhB_PhyBJ9PTXB_2FJJollF7dhyA"
-            alt="imagem 1"
-            className="imgP"
-          />
+          <img src="\img\imgDHTAPP.jpeg" alt="imagem 1" className="imgP" />
         </a>
         <p>
           I developed a React Native application to monitor soil humidity. The
@@ -93,11 +89,7 @@ const Portfolio = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
-            src="https://media.licdn.com/dms/image/v2/D4D22AQGEQTcRzPYe1w/feedshare-shrink_800/feedshare-shrink_800/0/1683935455429?e=1741219200&v=beta&t=XGxtIEaYekRrHwlSi3fpWpwmj1nlMoYJ0SI2QyZ1XtE"
-            alt="imagem 2"
-            className="imgP"
-          />
+          <img src="\img\imgJogoMario.jpeg" alt="imagem 2" className="imgP" />
         </a>
       </div>
       <div className="estilo1">
