@@ -1,8 +1,8 @@
 .wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Centraliza horizontalmente */
-  align-items: center; /* Centraliza verticalmente */
+  justify-content: center;
+  align-items: center;
   background-image: url(../public/img/banner-bg.png);
   background-repeat: no-repeat;
   background-size: cover;

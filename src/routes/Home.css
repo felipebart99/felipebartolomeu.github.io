@@ -6,16 +6,16 @@
 }
 /* Botão responsivo */
 .btn {
-  background-color: #4caf50; /* cor de fundo */
-  border: none; /* remove a borda */
-  color: white; /* cor do texto */
-  padding: 15px 20px; /* ajuste no preenchimento para telas menores */
-  text-align: center; /* alinhamento do texto */
-  font-size: 16px; /* tamanho da fonte menor */
-  border-radius: 8px; /* bordas arredondadas */
-  transition-duration: 0.4s; /* duração da transição */
-  width: 100%; /* largura total em telas pequenas */
-  max-width: 250px; /* largura máxima para evitar botões muito grandes */
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  width: 100%;
+  max-width: 250px;
 }
 
 .btn:hover {
@@ -24,7 +24,7 @@
 }
 
 .responsive-heading {
-  font-size: 60px; /* Tamanho padrão */
+  font-size: 60px;
 }
 
 /* Imagem responsiva */
@@ -39,29 +39,27 @@ a {
 }
 
 a:hover {
-  transform: scale(1.1); /* leve aumento ao passar o mouse */
+  transform: scale(1.1);
 }
 
 /* Responsividade */
 @media (max-width: 768px) {
   /* Reduz o tamanho do título */
   .responsive-heading {
-    font-size: 50px; /* Tamanho menor para telas pequenas */
+    font-size: 50px;
   }
 
-  /* Reduz o tamanho da imagem */
   img.rounded-circle {
-    max-width: 50%; /* Tamanho máximo da imagem em telas menores */
+    max-width: 50%;
   }
 
-  /* Espaçamento entre os ícones */
   .d-flex.gap-icons {
-    gap: 15px; /* Adiciona espaçamento apenas onde necessário */
+    gap: 15px;
   }
 
   /* Ajusta o layout para empilhar as colunas */
   .flex-column-reverse-sm {
-    flex-direction: column-reverse; /* Inverte a ordem dos elementos */
+    flex-direction: column-reverse;
   }
 }
 @keyframes updown {

@@ -12,7 +12,6 @@ const Home = () => {
     <div className="home-page">
       <div className="container-fluid mx-auto d-flex align-items-start align-items-md-center justify-content-center min-vh-100">
         <div className="d-flex flex-column-reverse-sm col-12 align-items-center mt-3 mb-3">
-          {/* Coluna de Texto */}
           <div className="d-flex flex-column gap-icons col-md-6 text-center">
             <h2 className="fw-bold responsive-heading pb-md-5">
               Hello, world!!

@@ -4,6 +4,22 @@ const Portfolio = () => {
   return (
     <div className="wrapper">
       <h1 className="tituloP">Main Projects</h1>
+      <div className="estilo1 destaque">
+        <p>
+          This project is a fictional restaurant e-commerce website. Here you
+          can: Select from various restaurant options, view restaurant
+          information, browse menus with detailed dish information, add items to
+          shopping cart, remove items, complete purchase by filling out delivery
+          forms. I used React, Redux, Styled-components and API integration.
+        </p>
+        <a
+          href="https://efood-teal-eight.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="\img\Efood.png" alt="imagem 2" className="imgP" />
+        </a>
+      </div>
       <div className="estilo1">
         <a
           href="https://fruetengenharia.com.br"
@@ -46,7 +62,7 @@ const Portfolio = () => {
           landing page created using Hostinger's website builder. Choosing the
           website builder allowed us to deliver a quick and cost-effective
           solution, ensuring a functional and visually appealing website within
-          the defined timeframe and budget
+          the defined timeframe and budget.
         </p>
       </div>
 
@@ -61,6 +77,34 @@ const Portfolio = () => {
           rel="noopener noreferrer"
         >
           <img src="\img\disneyPlusimg.png" alt="imagem 2" className="imgP" />
+        </a>
+      </div>
+      <div className="estilo1">
+        <a
+          href="https://contatos-react-redux.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="\img\listaContatos.png" alt="imagem 1" className="imgP" />
+        </a>
+        <p>
+          I created a contact list with functions to add, remove, edit and
+          delete entries. Additionally, the list features type filtering and a
+          search bar. I used React Redux in this project.
+        </p>
+      </div>
+
+      <div className="estilo1 destaque">
+        <p>
+          I developed a website to promote the Cobra Kai series. I used HTML,
+          CSS and Gulp to optimize the images.
+        </p>
+        <a
+          href="https://cobrakai.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="\img\Cobrakai.png" alt="imagem 2" className="imgP" />
         </a>
       </div>
       <div className="estilo1">
@@ -81,7 +125,7 @@ const Portfolio = () => {
         <p>
           Mario game made with HTML, CSS, and JavaScript. The goal of the game
           is to jump over the objects that appear in front without touching
-          them..
+          them.
         </p>
         <a
           href="https://jogo-mario-coral.vercel.app"
@@ -159,7 +203,7 @@ const Portfolio = () => {
         </a>
         <p>
           To do List made with React. It has search, filter, sorting, task
-          creation, deletion and categorization functionalities
+          creation, deletion and categorization functionalities.
         </p>
       </div>
       <div className="estilo1 destaque">
