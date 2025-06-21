@@ -1,3 +1,9 @@
+.home-page {
+  color: white;
+}
+.home-page img {
+  animation: updown 3s linear infinite;
+}
 /* Botão responsivo */
 .btn {
   background-color: #4caf50; /* cor de fundo */
@@ -56,5 +62,16 @@ a:hover {
   /* Ajusta o layout para empilhar as colunas */
   .flex-column-reverse-sm {
     flex-direction: column-reverse; /* Inverte a ordem dos elementos */
+  }
+}
+@keyframes updown {
+  0% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(-20px);
   }
 }

@@ -1,4 +1,3 @@
-import React from "react";
 import "./About.css";
 import { Link } from "react-router-dom";
 
@@ -7,8 +6,8 @@ const About = () => {
     <div className="texto">
       <div>
         <p>
-          Front-end Engineer in training at EBAC – British School of Creative
-          Arts and Technology, with a degree in Computer Science from UNIFBV. I
+          Bachelor's degree in Computer Science (UNIFBV) and certified Front-End
+          Engineer from EBAC - British School of Creative Arts and Technology. I
           have experience in developing Landing Pages and full-stack projects. I
           am a collaborative, creative, analytical, and proactive professional.
           I have developed responsive, SEO-optimized websites for various
