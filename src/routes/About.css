@@ -2,12 +2,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   font-size: x-large;
   padding: 30px;
-  background-image: url(../public/img/banner-bg.png);
+  background-image: url(../public/img/planets.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
+  font-weight: 500;
   height: 100vh;
 }
 
