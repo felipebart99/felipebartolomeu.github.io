@@ -1,5 +1,6 @@
 .home-page {
   color: white;
+  background-image: url(../img/banner-bg.png);
 }
 .home-page img {
   animation: updown 3s linear infinite;
