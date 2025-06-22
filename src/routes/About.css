@@ -4,7 +4,7 @@
   align-items: center;
   font-size: x-large;
   padding: 30px;
-  background-image: url(../public/img/planets.avif);
+  background-image: url(../img/spaceStars2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -15,6 +15,7 @@
 .texto p {
   margin-bottom: 10px;
   line-height: 1.5;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .texto h2 {
