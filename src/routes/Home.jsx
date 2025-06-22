@@ -6,6 +6,7 @@ import {
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
+import Typewriter from "../componentes/Typewriter";
 
 const Home = () => {
   return (
@@ -14,7 +15,7 @@ const Home = () => {
         <div className="d-flex flex-column-reverse-sm col-12 align-items-center mt-3 mb-3">
           <div className="d-flex flex-column gap-icons col-md-6 text-center">
             <h2 className="fw-bold responsive-heading pb-md-5">
-              Hello, world!!
+              <Typewriter text="Hello World" speed={200} />
             </h2>
             <p className="fw-bold" style={{ fontSize: "30px" }}>
               I am a <br />
