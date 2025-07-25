@@ -4,7 +4,6 @@ import ProjectCard from "../componentes/ProjectCard";
 const Portfolio = () => {
   return (
     <div className="wrapper">
-      <h1 className="tituloP">Main Projects</h1>
       <ProjectCard
         description="This project is a fictional restaurant e-commerce website. Here you can: Select from various restaurant options, view restaurant information, browse menus with detailed dish information, add items to shopping cart, remove items, complete purchase by filling out delivery forms. I used React, Redux, Styled-components and API integration."
         imageSrc="/img/Efood.png"
