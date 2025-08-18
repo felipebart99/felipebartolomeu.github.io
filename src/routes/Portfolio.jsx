@@ -97,7 +97,7 @@ const Portfolio = () => {
           experience across devices."
         imageSrc="\img\vanuzaSiteimg.png"
         altText="imagem 2"
-        link="https://mvanuzapsicologa.com"
+        link="https://vanuza-site.vercel.app"
       />
       <ProjectCard
         description="Fictional website created to sell an English course, built with
