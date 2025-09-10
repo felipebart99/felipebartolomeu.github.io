@@ -47,16 +47,6 @@ const NavBar = () => {
                 About
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink
-                to="/portfolio"
-                className={({ isActive }) =>
-                  isActive ? "nav-link active" : "nav-link"
-                }
-              >
-                Portfolio
-              </NavLink>
-            </li>
           </ul>
         </div>
       </div>

@@ -5,14 +5,26 @@ const ProjectCard = ({
   imageSrc,
   altText,
   link,
+  github,
   className = "",
 }) => {
   return (
     <div className={`estilo1 ${className}`}>
-      <p>{description}</p>
+      <p>
+        {description} <br />
+        {github && (
+          <span>
+            <a href={github} target="_blank" rel="noopener noreferrer">
+              View on GitHub
+            </a>
+          </span>
+        )}{" "}
+      </p>
+
       <a href={link} target="_blank" rel="noopener noreferrer">
         <img src={imageSrc} alt={altText} className="imgP" />
       </a>
+      <a href={github} target="_blank" rel="noopener noreferrer"></a>
     </div>
   );
 };
@@ -23,7 +35,8 @@ ProjectCard.propTypes = {
   imageSrc: PropTypes.string.isRequired,
   altText: PropTypes.string.isRequired,
   link: PropTypes.string.isRequired,
-  className: PropTypes.string, // opcional
+  github: PropTypes.string,
+  className: PropTypes.string,
 };
 
 export default ProjectCard;

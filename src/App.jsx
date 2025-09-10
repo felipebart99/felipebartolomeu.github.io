@@ -6,15 +6,14 @@ import { useEffect } from "react";
 
 function App() {
   useEffect(() => {
-    // Lista de todas as imagens de fundo usadas nas rotas
     const backgroundImages = [`/img/spaceStars2.jpg`, `/img/spaceStars.webp`];
 
     // Pré-carrega cada imagem
     backgroundImages.forEach((imageUrl) => {
-      const img = new Image(); // Cria um novo elemento <img>
-      img.src = imageUrl; // Define o src para forçar o carregamento
+      const img = new Image();
+      img.src = imageUrl;
     });
-  }, []); // Executa apenas uma vez no carregamento inicial
+  }, []);
   return (
     <div className="app">
       <header>

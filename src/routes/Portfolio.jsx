@@ -5,11 +5,29 @@ const Portfolio = () => {
   return (
     <div className="wrapper">
       <ProjectCard
+        description="A modern website for BartGym, showcasing the facility, benefits, and membership plans. It features a clean design, easy navigation, and a contact section for scheduling sessions. Built to attract new clients and provide relevant information to members."
+        imageSrc="\img\bartGym.png"
+        altText="imagem 2"
+        link="https://bart-gym.vercel.app"
+        className="destaque"
+        github="https://github.com/felipebart99/BartGym"
+      />
+
+      <ProjectCard
+        description="This website was designed for psychologist Pamela Sousa to present her professional profile and therapeutic approach in a clear and welcoming way. The site highlights her background in Gestalt therapy, her ongoing training in Psychology, and her mission to help clients through self-knowledge and emotional well-being. The layout was built with a clean and modern design to reflect trust, empathy, and professionalism."
+        imageSrc="\img\printSitePam.png"
+        altText="imagem 2"
+        link="https://psi-pamela-sousa.vercel.app"
+        github="https://github.com/felipebart99/PsiPamelaSousa"
+      />
+
+      {/*<ProjectCard
         description="This project is a fictional restaurant e-commerce website. Here you can: Select from various restaurant options, view restaurant information, browse menus with detailed dish information, add items to shopping cart, remove items, complete purchase by filling out delivery forms. I used React, Redux, Styled-components and API integration."
         imageSrc="/img/Efood.png"
         altText="imagem 2"
         link="https://efood-teal-eight.vercel.app/"
-      />
+      />*/}
+
       <ProjectCard
         description="  Freelance project completed for engineer André Fruet. This landing
           page was developed using Hostinger's website builder, providing a fast
@@ -45,6 +63,7 @@ const Portfolio = () => {
         imageSrc="\img\disneyPlusimg.png"
         altText="imagem 2"
         link="https://clone-disneyplus-wtgy.vercel.app"
+        github="https://github.com/felipebart99/clone_disneyplus"
       />
       <ProjectCard
         description="I created a contact list with functions to add, remove, edit and
@@ -54,6 +73,7 @@ const Portfolio = () => {
         altText="imagem 2"
         link="https://contatos-react-redux.vercel.app/"
         className="destaque"
+        github="https://github.com/felipebart99/ContatosReactRedux"
       />
       <ProjectCard
         description="I developed a website to promote the Cobra Kai series. I used HTML,
@@ -61,6 +81,7 @@ const Portfolio = () => {
         imageSrc="\img\Cobrakai.png"
         altText="imagem 2"
         link="https://cobrakai.vercel.app/"
+        github="https://github.com/felipebart99/cobrakai"
       />
       <ProjectCard
         description="I developed a React Native application to monitor soil humidity. The
@@ -70,6 +91,7 @@ const Portfolio = () => {
         altText="imagem 2"
         link="https://www.linkedin.com/posts/felipe-bartolomeu_foi-de-grande-import%C3%A2ncia-participar-do-activity-7266584960759726080-MD5O?utm_source=share&utm_medium=member_desktop"
         className="destaque"
+        github="https://github.com/felipebart99/Horta"
       />
       <ProjectCard
         description="Mario game made with HTML, CSS, and JavaScript. The goal of the game
@@ -78,6 +100,7 @@ const Portfolio = () => {
         imageSrc="\img\imgJogoMario.jpeg"
         altText="imagem 2"
         link="https://jogo-mario-coral.vercel.app"
+        github="https://github.com/felipebart99/jogoMario"
       />
       <ProjectCard
         description="Landing page created to promote the work of tattoo artist Danilo,
@@ -98,6 +121,7 @@ const Portfolio = () => {
         imageSrc="\img\vanuzaSiteimg.png"
         altText="imagem 2"
         link="https://vanuza-site.vercel.app"
+        github="https://github.com/felipebart99/VanuzaSite"
       />
       <ProjectCard
         description="Fictional website created to sell an English course, built with
@@ -106,12 +130,14 @@ const Portfolio = () => {
         altText="imagem 2"
         link="https://bart-english.vercel.app"
         className="destaque"
+        github="https://github.com/felipebart99/BartEnglish"
       />
       <ProjectCard
         description="Website for a fictional hotel, built with Bootstrap."
         imageSrc="\img\BartHotelimg.png"
         altText="imagem 2"
         link="https://bart-hotel.vercel.app"
+        github="https://github.com/felipebart99/Bart-Hotel"
       />
       <ProjectCard
         description=" To do List made with React. It has search, filter, sorting, task
@@ -120,12 +146,14 @@ const Portfolio = () => {
         altText="imagem 2"
         link="https://todo-list-sooty-sigma-85.vercel.app"
         className="destaque"
+        github="https://github.com/felipebart99/todoList"
       />
       <ProjectCard
         description="Landing Page project made with HTML, CSS and JavaScript for GTA V."
         imageSrc="/img/imgGta.png"
         altText="imagem 2"
         link="https://gta-v-mu.vercel.app"
+        github="https://github.com/felipebart99/GTA-V"
       />
       <ProjectCard
         description="Calculator made with React.JS where for the first time I used Material
@@ -136,6 +164,7 @@ const Portfolio = () => {
         altText="imagem 2"
         link="https://calculadora-react-eta-sable.vercel.app"
         className="destaque"
+        github="https://github.com/felipebart99/Calculadora-React"
       />
       <ProjectCard
         description="Weather application with OpenWeather API. In addition to temperature,
@@ -144,6 +173,7 @@ const Portfolio = () => {
         imageSrc="/img/imgApiClima.png"
         altText="imagem 2"
         link="https://api-clima-snowy.vercel.app"
+        github="https://github.com/felipebart99/API-clima"
       />
     </div>
   );

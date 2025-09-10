@@ -7,6 +7,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
 import Typewriter from "../componentes/Typewriter";
+import Portfolio from "./Portfolio";
 
 const Home = () => {
   return (
@@ -27,8 +28,8 @@ const Home = () => {
               className="d-flex flex-column align-items-center pt-md-5 "
               style={{ gap: "30px" }}
             >
-              <Link to="/about" className="btn btn-success">
-                More about me
+              <Link to="/portfolio" className="btn btn-success">
+                Projects
               </Link>
               <div className="d-flex gap-icons justify-content-center">
                 <a
@@ -68,6 +69,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Portfolio />
     </div>
   );
 };

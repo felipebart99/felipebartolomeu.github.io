@@ -31,7 +31,7 @@ const About = () => {
           HTML5, CSS3, Javascript, ReactJs, React Native, JQuery, Bootstrap,
           SASS, Gulp, LESS, Webpack Basic, Node, UX, Git, Github, DataBases.
         </p>
-        <p>Intermediate English</p>
+        <p>Advanced English</p>
       </div>
       <div>
         <Link to="/portfolio" className="btn btn-success mt-4">
