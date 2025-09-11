@@ -1,7 +1,11 @@
 .home-page {
   color: white;
-  background-image: url(../img/banner-bg.png);
   width: 100vw;
+  background-image: url(../img/banner-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 .home-page img {
   animation: updown 3s linear infinite;
