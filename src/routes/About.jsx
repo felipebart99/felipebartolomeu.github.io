@@ -61,18 +61,10 @@ const About = () => {
             @felipebart.dev
           </a>
         </h3>
-        <iframe
-          src="//lightwidget.com/widgets/6fa3eceebeab5119bbbae363b5c7b23a.html"
-          className="lightwidget-widget"
-          style={{
-            width: "900px",
-            maxWidth: "900px", // 🔹 limita largura em telas grandes
-            height: "1000px",
-            border: 0,
-            overflow: "hidden",
-          }}
-          title="Instagram Feed"
-        ></iframe>
+
+        <a href="https://www.instagram.com/felipebart.dev" target="blank">
+          <img src="../../img/printDoInsta.png" alt="print do instagram" />
+        </a>
       </div>
     </div>
   );

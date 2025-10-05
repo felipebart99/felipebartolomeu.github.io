@@ -62,7 +62,7 @@ const Home = () => {
           {/* Coluna da Imagem */}
           <div className="col-md-6 text-center">
             <img
-              src="/img/minhafoto.jpeg"
+              src="/img/minhafotoNova.JPG"
               alt="foto de perfil"
               className="rounded-circle img-fluid"
             />

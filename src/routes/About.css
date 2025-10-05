@@ -18,6 +18,11 @@
 }
 .insta {
   color: aliceblue;
+  margin-bottom: 60px;
+
+  img {
+    max-width: 800px;
+  }
 }
 .texto p {
   margin-bottom: 10px;
@@ -42,5 +47,14 @@
 @media (max-width: 1000px) {
   .texto {
     height: 100%;
+  }
+}
+
+@media (max-width: 650px) {
+  .insta {
+    img {
+      max-width: 80vw;
+      min-height: 500px;
+    }
   }
 }
