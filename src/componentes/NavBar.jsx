@@ -1,6 +1,6 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
 import "./NavBar.css";
+import Logo from "../../public/img/logoFelipeBart.jpeg";
 
 const NavBar = () => {
   return (
@@ -8,7 +8,7 @@ const NavBar = () => {
       <div className="container-fluid">
         {/* Título da Logo */}
         <div className="navbar-header">
-          <h1 className="tituloLogo">Felipe Bartolomeu</h1>
+          <img src={Logo} className="tituloLogo" />
         </div>
 
         {/* Botão para Navbar em modo responsivo */}
@@ -39,12 +39,12 @@ const NavBar = () => {
             </li>
             <li className="nav-item">
               <NavLink
-                to="/about"
+                to="/portfolio"
                 className={({ isActive }) =>
                   isActive ? "nav-link active" : "nav-link"
                 }
               >
-                About
+                Portfólio
               </NavLink>
             </li>
           </ul>

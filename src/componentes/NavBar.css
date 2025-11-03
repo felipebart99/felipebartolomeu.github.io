@@ -1,12 +1,8 @@
 /* Estilização da Logo */
-h1.tituloLogo {
-  font-size: 40px;
-  background-color: rgb(202, 243, 243);
-  border-radius: 1rem;
-  padding: 10px 20px;
-  white-space: nowrap;
-  margin: 0;
-  display: inline-block;
+.tituloLogo {
+  height: 80px;
+  width: 300px;
+  border-radius: 2em;
 }
 
 /* Ajuste da Navbar */

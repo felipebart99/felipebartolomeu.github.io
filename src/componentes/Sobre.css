@@ -1,0 +1,18 @@
+#sobre {
+  background-color: rgba(255, 192, 203, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 80px;
+  h3 {
+    color: rgba(255, 255, 255, 0.647);
+  }
+  img {
+    max-height: 600px;
+    border-radius: 2em;
+  }
+  .principal {
+    max-width: 600px;
+  }
+}

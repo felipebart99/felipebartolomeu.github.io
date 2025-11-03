@@ -1,74 +1,39 @@
 import "./Home.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faGithub,
-  faLinkedin,
-  faWhatsapp,
-} from "@fortawesome/free-brands-svg-icons";
-import { Link } from "react-router-dom";
 import Typewriter from "../componentes/Typewriter";
 import Portfolio from "./Portfolio";
+import Sobre from "../componentes/Sobre";
 
 const Home = () => {
   return (
     <div className="home-page">
-      <div className="container-fluid mx-auto d-flex align-items-start align-items-md-center justify-content-center min-vh-100">
-        <div className="d-flex flex-column-reverse-sm col-12 align-items-center mt-3 mb-3">
-          <div className="d-flex flex-column gap-icons col-md-6 text-center">
+      <div className="container-fluid mx-auto d-flex  align-items-md-center justify-content-center min-vh-100">
+        <div className="d-flex align-items-center mt-3 mb-3">
+          <div className="d-flex flex-column gap-icons  text-center">
             <h2 className="fw-bold responsive-heading pb-md-5">
-              <Typewriter text="Hello World" speed={200} />
+              <Typewriter text="Criação de sites Profissionais" speed={200} />
             </h2>
             <p className="fw-bold" style={{ fontSize: "30px" }}>
-              I am a <br />
-              Web Developer.
-              <br />
-              Welcome to my Portfolio WebSite
+              Seu negócio merece um site profissional <br />
+              Já pensou em ter um site moderno, atraente e barato? <br />
+              Entre em contato e faça seu orçamento gratuito
             </p>
             <div
               className="d-flex flex-column align-items-center pt-md-5 "
               style={{ gap: "30px" }}
             >
-              <Link to="/portfolio" className="btn btn-success">
-                Projects
-              </Link>
-              <div className="d-flex gap-icons justify-content-center">
-                <a
-                  href="https://github.com/felipebart99"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="me-3"
-                >
-                  <FontAwesomeIcon icon={faGithub} size="2x" />
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/felipe-bartolomeu-8215b425a"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="me-3"
-                >
-                  <FontAwesomeIcon icon={faLinkedin} size="2x" />
-                </a>
-                <a
-                  href="https://api.whatsapp.com/send?phone=5581998602739"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FontAwesomeIcon icon={faWhatsapp} size="2x" />
-                </a>
-              </div>
+              <a
+                href="https://api.whatsapp.com/send?phone=5581998602739"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-success"
+              >
+                Contato
+              </a>
             </div>
-          </div>
-
-          {/* Coluna da Imagem */}
-          <div className="col-md-6 text-center">
-            <img
-              src="/img/minhafotoNova.JPG"
-              alt="foto de perfil"
-              className="rounded-circle img-fluid"
-            />
           </div>
         </div>
       </div>
+      <Sobre />
       <Portfolio />
     </div>
   );

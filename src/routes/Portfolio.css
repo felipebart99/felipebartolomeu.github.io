@@ -32,8 +32,8 @@
   flex-direction: row-reverse;
 }
 .imgP {
-  width: 500px;
-  height: 250px;
+  width: 700px;
+  height: 450px;
   border-radius: 1rem;
   animation: pulse 1.5s infinite;
   cursor: pointer;
