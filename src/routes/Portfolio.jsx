@@ -4,6 +4,14 @@ import ProjectCard from "../componentes/ProjectCard";
 const Portfolio = () => {
   return (
     <div className="wrapper">
+      <h2>Meus Principais projetos</h2>
+      <ProjectCard
+        description="This website was designed for psychologist Raiana Monteiro to present her professional profile and therapeutic approach in a clear and welcoming way. The site highlights her background in Gestalt therapy, her ongoing training in Psychology, and her mission to help clients through self-knowledge and emotional well-being. The layout was built with a clean and modern design to reflect trust, empathy, and professionalism."
+        imageSrc="\img\printSiteRaiana.png"
+        altText="imagem 2"
+        link="https://psicologaraianamonteiro.com.br/"
+        github="https://github.com/felipebart99/psiRaianaMonteiro"
+      />
       <ProjectCard
         description="A modern website for BartGym, showcasing the facility, benefits, and membership plans. It features a clean design, easy navigation, and a contact section for scheduling sessions. Built to attract new clients and provide relevant information to members."
         imageSrc="\img\bartGym.png"
@@ -17,7 +25,7 @@ const Portfolio = () => {
         description="This website was designed for psychologist Pamela Sousa to present her professional profile and therapeutic approach in a clear and welcoming way. The site highlights her background in Gestalt therapy, her ongoing training in Psychology, and her mission to help clients through self-knowledge and emotional well-being. The layout was built with a clean and modern design to reflect trust, empathy, and professionalism."
         imageSrc="\img\printSitePam.png"
         altText="imagem 2"
-        link="https://psi-pamela-sousa.vercel.app"
+        link="https://psipamelasousa.com.br/"
         github="https://github.com/felipebart99/PsiPamelaSousa"
       />
 

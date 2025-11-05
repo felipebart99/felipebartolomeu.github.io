@@ -3,10 +3,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 60px;
-
+  gap: 150px;
+  margin-bottom: 280px;
   h3 {
     color: rgba(255, 255, 255, 0.647);
+  }
+  li {
+    font-size: xx-large;
+    margin-bottom: 40px;
+  }
+  ul li::marker {
+    color: rgb(202, 5, 5); /* cor da bolinha */
   }
   img {
     max-height: 600px;

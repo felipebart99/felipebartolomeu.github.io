@@ -4,11 +4,14 @@
   width: 300px;
   border-radius: 2em;
 }
+.navbar .nav-link {
+  color: white;
+}
 
 /* Ajuste da Navbar */
 .custom-navbar {
   width: 100vw; /* Evita rolagem horizontal */
-  background-color: #e6f7ff;
+  background-color: rgba(14, 24, 36, 1);
   padding: 10px 0;
 }
 

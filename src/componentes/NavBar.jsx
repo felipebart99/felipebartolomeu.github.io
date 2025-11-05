@@ -34,7 +34,7 @@ const NavBar = () => {
                   isActive ? "nav-link active" : "nav-link"
                 }
               >
-                Home
+                Início
               </NavLink>
             </li>
             <li className="nav-item">
