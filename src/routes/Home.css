@@ -11,6 +11,21 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  h2 {
+    /* Gradiente no texto */
+    background: linear-gradient(90deg, #ff007f, #00ffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    /* Borda ao redor do texto */
+    border: 4px solid #ff007f;
+    padding: 0px 40px;
+    border-radius: 15px;
+
+    /* Efeito de brilho na borda */
+    box-shadow: 0 0 20px rgba(255, 0, 127, 0.6);
+  }
 }
 .home-page .imgP {
   animation: updown 3s linear infinite;

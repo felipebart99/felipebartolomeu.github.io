@@ -1,4 +1,4 @@
-import eu from "../../public/img/minhafotoNova.webp";
+import eu from "/img/minhafotoNova.webp";
 import Typewriter from "../componentes/Typewriter";
 import "./Sobre.css";
 //import { whatsAppLink } from "./WhatsApp/WhatsAppLink";

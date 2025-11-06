@@ -1,4 +1,4 @@
-import responsivo from "../../public/img/site_responsivo.png";
+import responsivo from "/img/site_responsivo.png";
 import "./Comum.css";
 
 const Sobre = () => {
