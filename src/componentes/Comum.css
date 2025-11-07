@@ -1,4 +1,4 @@
-#sobre {
+#comum {
   background-color: rgba(255, 192, 203, 0);
   display: flex;
   align-items: center;
@@ -8,7 +8,7 @@
   h3 {
     color: rgba(255, 255, 255, 0.647);
   }
-  li {
+  .principal li {
     font-size: xx-large;
     margin-bottom: 40px;
   }
@@ -21,5 +21,15 @@
   }
   .principal {
     max-width: 600px;
+  }
+}
+@media (max-width: 1024px) {
+  #comum {
+    flex-direction: column-reverse;
+    margin: 0px;
+    img {
+      max-height: 300px;
+      border-radius: 2em;
+    }
   }
 }

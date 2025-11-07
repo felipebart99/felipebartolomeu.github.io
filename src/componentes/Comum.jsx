@@ -1,9 +1,9 @@
 import responsivo from "/img/site_responsivo.png";
 import "./Comum.css";
 
-const Sobre = () => {
+const Comum = () => {
   return (
-    <section id="sobre">
+    <section id="comum">
       <div className="principal">
         <p>
           <ul>
@@ -20,4 +20,4 @@ const Sobre = () => {
     </section>
   );
 };
-export default Sobre;
+export default Comum;

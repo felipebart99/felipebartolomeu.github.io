@@ -7,7 +7,7 @@
   background-attachment: fixed;
   color: white;
   padding-top: 60px;
-  
+
   h2 {
     margin-bottom: 60px;
     font-size: xx-large;
@@ -16,25 +16,22 @@
     color: rgb(255, 255, 255);
     border-radius: 2em;
     padding: 20px;
-    
-      /* Gradiente no texto */
-      background: linear-gradient(90deg, #ff007f, #00ffff);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
 
-      /* Borda ao redor do texto */
-      border: 4px solid #ff007f;
-      padding: 0px 40px;
-      border-radius: 15px;
+    /* Gradiente no texto */
+    background: linear-gradient(90deg, #ff007f, #00ffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
-      /* Efeito de brilho na borda */
-      box-shadow: 0 0 20px rgba(255, 0, 127, 0.6);
-    }
+    /* Borda ao redor do texto */
+    border: 4px solid #ff007f;
+    padding: 0px 40px;
+    border-radius: 15px;
+
+    /* Efeito de brilho na borda */
+    box-shadow: 0 0 20px rgba(255, 0, 127, 0.6);
   }
 }
-.tituloP {
-  margin: 40px;
-}
+
 .estilo1 {
   display: flex;
   flex-direction: row;
@@ -81,6 +78,7 @@
     padding-bottom: 10px;
     margin-bottom: 40px;
     margin-top: 20px;
+    padding: 10px;
   }
 
   .imgP {
