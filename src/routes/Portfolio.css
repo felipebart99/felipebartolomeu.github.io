@@ -59,6 +59,7 @@
   border-radius: 1rem;
   animation: pulse 1.5s infinite;
   cursor: pointer;
+  background-size: contain;
 }
 @keyframes pulse {
   0% {

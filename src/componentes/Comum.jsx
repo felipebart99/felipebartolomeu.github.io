@@ -5,16 +5,14 @@ const Comum = () => {
   return (
     <section id="comum">
       <div className="principal">
-        <p>
-          <ul>
-            <li>Visibilidade 24h</li>
-            <li>Credibilidade</li>
-            <li>Atraia Novos Clientes</li>
-            <li>Contato Direto</li>
-            <li>SEO Básico Incluso</li>
-            <li>Entrega Rápida</li>
-          </ul>
-        </p>
+        <ul>
+          <li>Visibilidade 24h</li>
+          <li>Credibilidade</li>
+          <li>Atraia Novos Clientes</li>
+          <li>Contato Direto</li>
+          <li>SEO Básico Incluso</li>
+          <li>Entrega Rápida</li>
+        </ul>
       </div>
       <img src={responsivo} />
     </section>

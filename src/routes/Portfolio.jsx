@@ -6,14 +6,14 @@ const Portfolio = () => {
     <div className="wrapper">
       <h2>Meus Principais projetos</h2>
       <ProjectCard
-        description="This website was designed for psychologist Raiana Monteiro to present her professional profile and therapeutic approach in a clear and welcoming way. The site highlights her background in Gestalt therapy, her ongoing training in Psychology, and her mission to help clients through self-knowledge and emotional well-being. The layout was built with a clean and modern design to reflect trust, empathy, and professionalism."
+        description="Site criado para a psicóloga Raiana Monteiro, com o objetivo de apresentar seu perfil profissional e abordagem terapêutica de forma clara e acolhedora. O design moderno e minimalista transmite confiança, empatia e profissionalismo, destacando sua formação em Terapia Gestalt e sua missão de promover o autoconhecimento e o bem-estar emocional."
         imageSrc="\img\printSiteRaiana.png"
         altText="imagem 2"
         link="https://psicologaraianamonteiro.com.br/"
         github="https://github.com/felipebart99/psiRaianaMonteiro"
       />
       <ProjectCard
-        description="A modern website for BartGym, showcasing the facility, benefits, and membership plans. It features a clean design, easy navigation, and a contact section for scheduling sessions. Built to attract new clients and provide relevant information to members."
+        description="Um site moderno para a BartGym, apresentando a estrutura, os benefícios e os planos de assinatura. Possui um design limpo, navegação intuitiva e uma seção de contato para agendamento de aulas. Foi desenvolvido para atrair novos clientes e fornecer informações relevantes aos membros."
         imageSrc="\img\bartGym.png"
         altText="imagem 2"
         link="https://bart-gym.vercel.app"
@@ -22,7 +22,7 @@ const Portfolio = () => {
       />
 
       <ProjectCard
-        description="This website was designed for psychologist Pamela Sousa to present her professional profile and therapeutic approach in a clear and welcoming way. The site highlights her background in Gestalt therapy, her ongoing training in Psychology, and her mission to help clients through self-knowledge and emotional well-being. The layout was built with a clean and modern design to reflect trust, empathy, and professionalism."
+        description="Este site foi criado para a psicóloga Pamela Sousa, com o objetivo de apresentar seu perfil profissional e abordagem terapêutica de forma clara e acolhedora. O site destaca sua formação em Terapia Gestalt, sua contínua capacitação em Psicologia e sua missão de ajudar os clientes por meio do autoconhecimento e bem-estar emocional. O layout foi desenvolvido com um design limpo e moderno, refletindo confiança, empatia e profissionalismo."
         imageSrc="\img\printSitePam.png"
         altText="imagem 2"
         link="https://psipamelasousa.com.br/"
@@ -37,46 +37,34 @@ const Portfolio = () => {
       />*/}
 
       <ProjectCard
-        description="  Freelance project completed for engineer André Fruet. This landing
-          page was developed using Hostinger's website builder, providing a fast
-          and budget-friendly solution. By leveraging the platform’s tools, we
-          ensured an efficient delivery while maintaining a professional and
-          visually appealing design."
+        description=" Projeto freelancer realizado para o engenheiro André Fruet. Esta landing page foi desenvolvida utilizando o construtor de sites da Hostinger, proporcionando uma solução rápida e econômica. Ao aproveitar as ferramentas da plataforma, garantimos uma entrega eficiente sem abrir mão de um design profissional e visualmente atraente."
         imageSrc="\img\image.png"
         altText="imagem 2"
         link="https://fruetengenharia.com.br"
         className="destaque"
       />
       <ProjectCard
-        description="Freelance work I did to promote a fair in Caruaru that showcases
-          various brands of bags, accessories, and shoes."
+        description="Trabalho freelancer realizado para divulgar uma feira em Caruaru, que apresenta diversas marcas de bolsas, acessórios e calçados."
         imageSrc="\img\fotoFeiraPorti.png"
         altText="imagem 2"
         link="https://feiramodanordeste.com.br"
       />
       <ProjectCard
-        description=" Freelance work completed for engineer Alison Brito. The website is a
-          landing page created using Hostinger's website builder. Choosing the
-          website builder allowed us to deliver a quick and cost-effective
-          solution, ensuring a functional and visually appealing website within
-          the defined timeframe and budget."
+        description=" Trabalho freelancer desenvolvido para o engenheiro Alison Brito. O site é uma landing page criada com o construtor de sites da Hostinger. A escolha dessa plataforma permitiu entregar uma solução rápida e acessível, garantindo um site funcional e visualmente agradável, dentro do prazo e orçamento definidos."
         imageSrc="\img\alisonBritoimg.png"
         altText="imagem 2"
         link="https://alisonbritoeng.com.br"
         className="destaque"
       />
       <ProjectCard
-        description="Disney+ clone website with mobile adaptation, hosted on Vercel, using
-          Gulp and SASS."
+        description="Site clone do Disney+, com adaptação para dispositivos móveis, hospedado na Vercel, desenvolvido utilizando Gulp e SASS."
         imageSrc="\img\disneyPlusimg.png"
         altText="imagem 2"
         link="https://clone-disneyplus-wtgy.vercel.app"
         github="https://github.com/felipebart99/clone_disneyplus"
       />
       <ProjectCard
-        description="I created a contact list with functions to add, remove, edit and
-          delete entries. Additionally, the list features type filtering and a
-          search bar. I used React Redux in this project."
+        description="Criei uma lista de contatos com funções para adicionar, remover, editar e excluir entradas. Além disso, a lista possui filtro por tipo e barra de pesquisa. Utilizei React Redux neste projeto."
         imageSrc="\img\listaContatos.png"
         altText="imagem 2"
         link="https://contatos-react-redux.vercel.app/"
@@ -84,17 +72,14 @@ const Portfolio = () => {
         github="https://github.com/felipebart99/ContatosReactRedux"
       />
       <ProjectCard
-        description="I developed a website to promote the Cobra Kai series. I used HTML,
-          CSS and Gulp to optimize the images."
+        description="Desenvolvi um site para promover a série Cobra Kai, utilizando HTML, CSS e Gulp para otimizar as imagens."
         imageSrc="\img\Cobrakai.png"
         altText="imagem 2"
         link="https://cobrakai.vercel.app/"
         github="https://github.com/felipebart99/cobrakai"
       />
       <ProjectCard
-        description="I developed a React Native application to monitor soil humidity. The
-          MVP was delivered by collecting data through a serial port and making
-          it available on a server. I built the server using NodeJS and Express."
+        description="Desenvolvi um aplicativo em React Native para monitorar a umidade do solo. O MVP foi entregue com coleta de dados via porta serial e disponibilização em um servidor. O servidor foi desenvolvido com Node.js e Express."
         imageSrc="\img\imgDHTAPP.jpeg"
         altText="imagem 2"
         link="https://www.linkedin.com/posts/felipe-bartolomeu_foi-de-grande-import%C3%A2ncia-participar-do-activity-7266584960759726080-MD5O?utm_source=share&utm_medium=member_desktop"
@@ -102,38 +87,28 @@ const Portfolio = () => {
         github="https://github.com/felipebart99/Horta"
       />
       <ProjectCard
-        description="Mario game made with HTML, CSS, and JavaScript. The goal of the game
-          is to jump over the objects that appear in front without touching
-          them."
+        description="Jogo do Mario desenvolvido com HTML, CSS e JavaScript. O objetivo do jogo é pular os obstáculos que aparecem no caminho sem tocá-los."
         imageSrc="\img\imgJogoMario.jpeg"
         altText="imagem 2"
         link="https://jogo-mario-coral.vercel.app"
         github="https://github.com/felipebart99/jogoMario"
       />
       <ProjectCard
-        description="Landing page created to promote the work of tattoo artist Danilo,
-          built using the website builder tools provided by Hostinger's
-          platform."
+        description="Landing page criada para divulgar o trabalho do tatuador Danilo, construída utilizando as ferramentas do construtor de sites da Hostinger."
         imageSrc="\img\niloTattooimg.png"
         altText="imagem 2"
         link="https://nilotattoo.site"
         className="destaque"
       />
       <ProjectCard
-        description=" Developed a responsive and SEO-optimized website for a psychologist,
-          focused on improving online visibility and facilitating appointment
-          scheduling. The project included creating an intuitive interface,
-          integrating communication tools (such as WhatsApp), and implementing
-          design best practices to ensure a smooth and accessible user
-          experience across devices."
+        description="Desenvolvi um site responsivo e otimizado para SEO para uma psicóloga, com foco em melhorar a visibilidade online e facilitar o agendamento de consultas. O projeto incluiu a criação de uma interface intuitiva, integração com ferramentas de comunicação (como WhatsApp) e aplicação de boas práticas de design para garantir uma experiência fluida e acessível em todos os dispositivos."
         imageSrc="\img\vanuzaSiteimg.png"
         altText="imagem 2"
         link="https://vanuza-site.vercel.app"
         github="https://github.com/felipebart99/VanuzaSite"
       />
       <ProjectCard
-        description="Fictional website created to sell an English course, built with
-          Bootstrap."
+        description="Site ficcional criado para a venda de um curso de inglês, desenvolvido com Bootstrap."
         imageSrc="\img\EnglishCourseimg.png"
         altText="imagem 2"
         link="https://bart-english.vercel.app"
@@ -141,15 +116,14 @@ const Portfolio = () => {
         github="https://github.com/felipebart99/BartEnglish"
       />
       <ProjectCard
-        description="Website for a fictional hotel, built with Bootstrap."
+        description="Site ficcional para um hotel, desenvolvido com Bootstrap."
         imageSrc="\img\BartHotelimg.png"
         altText="imagem 2"
         link="https://bart-hotel.vercel.app"
         github="https://github.com/felipebart99/Bart-Hotel"
       />
       <ProjectCard
-        description=" To do List made with React. It has search, filter, sorting, task
-          creation, deletion and categorization functionalities."
+        description=" To-Do List desenvolvida com React, contendo funcionalidades de pesquisa, filtro, ordenação, criação, exclusão e categorização de tarefas."
         imageSrc="/img/imgTodoList.png"
         altText="imagem 2"
         link="https://todo-list-sooty-sigma-85.vercel.app"
@@ -157,17 +131,14 @@ const Portfolio = () => {
         github="https://github.com/felipebart99/todoList"
       />
       <ProjectCard
-        description="Landing Page project made with HTML, CSS and JavaScript for GTA V."
+        description="Projeto de Landing Page criado com HTML, CSS e JavaScript, inspirado no jogo GTA V."
         imageSrc="/img/imgGta.png"
         altText="imagem 2"
         link="https://gta-v-mu.vercel.app"
         github="https://github.com/felipebart99/GTA-V"
       />
       <ProjectCard
-        description="Calculator made with React.JS where for the first time I used Material
-          UI Containers to create the calculator structure pattern. This project
-          helped me consolidate the logic necessary to deal with mathematical
-          operations through the UseState Hook."
+        description="Calculadora desenvolvida com React.js, onde utilizei pela primeira vez containers do Material UI para estruturar o layout. Este projeto me ajudou a consolidar a lógica necessária para lidar com operações matemáticas por meio do Hook useState."
         imageSrc="/img/imgCalculator.png"
         altText="imagem 2"
         link="https://calculadora-react-eta-sable.vercel.app"
@@ -175,9 +146,7 @@ const Portfolio = () => {
         github="https://github.com/felipebart99/Calculadora-React"
       />
       <ProjectCard
-        description="Weather application with OpenWeather API. In addition to temperature,
-          it shows data on humidity, wind speed and current state of the sky.
-          Project made with HTML, CSS and JS."
+        description="Aplicativo de clima integrado à API OpenWeather. Além da temperatura, exibe dados de umidade, velocidade do vento e condição atual do céu. Projeto desenvolvido com HTML, CSS e JavaScript."
         imageSrc="/img/imgApiClima.png"
         altText="imagem 2"
         link="https://api-clima-snowy.vercel.app"
