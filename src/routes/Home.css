@@ -11,6 +11,9 @@
   align-items: center;
   justify-content: center;
 
+  .txt {
+    font-size: 30px;
+  }
   .container-fluid {
     padding: 0 150px;
   }
@@ -73,6 +76,16 @@ a:hover {
 
 /* Responsividade */
 @media (max-width: 768px) {
+  .home-page {
+    .txt {
+      font-size: 25px;
+      padding: 0px 20px;
+    }
+    h2 {
+      font-size: 40px;
+    }
+  }
+
   /* Reduz o tamanho do título */
   .responsive-heading {
     font-size: 50px;

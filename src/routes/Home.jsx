@@ -13,7 +13,7 @@ const Home = () => {
             <h2 className="fw-bold responsive-heading mb-5">
               <Typewriter text="Criação de sites Profissionais" speed={130} />
             </h2>
-            <p className="fw-bold" style={{ fontSize: "30px" }}>
+            <p className="fw-bold txt">
               Seu negócio merece um site profissional!! <br />
               Já pensou em ter um site moderno, atraente e barato? <br />
               Entre em contato e faça seu orçamento gratuito.
