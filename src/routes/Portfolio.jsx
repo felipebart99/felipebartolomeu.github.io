@@ -13,12 +13,11 @@ const Portfolio = () => {
         github="https://github.com/felipebart99/psiRaianaMonteiro"
       />
       <ProjectCard
-        description="Um site moderno para a BartGym, apresentando a estrutura, os benefícios e os planos de assinatura. Possui um design limpo, navegação intuitiva e uma seção de contato para agendamento de aulas. Foi desenvolvido para atrair novos clientes e fornecer informações relevantes aos membros."
-        imageSrc="\img\bartGym.png"
+        description=" Trabalho freelancer desenvolvido para o engenheiro Alison Brito. O site é uma landing page criada com o construtor de sites da Hostinger. A escolha dessa plataforma permitiu entregar uma solução rápida e acessível, garantindo um site funcional e visualmente agradável, dentro do prazo e orçamento definidos."
+        imageSrc="\img\alisonBritoimg.png"
         altText="imagem 2"
-        link="https://bart-gym.vercel.app"
+        link="https://alisonbritoeng.com.br"
         className="destaque"
-        github="https://github.com/felipebart99/BartGym"
       />
 
       <ProjectCard
@@ -28,13 +27,6 @@ const Portfolio = () => {
         link="https://psipamelasousa.com.br/"
         github="https://github.com/felipebart99/PsiPamelaSousa"
       />
-
-      {/*<ProjectCard
-        description="This project is a fictional restaurant e-commerce website. Here you can: Select from various restaurant options, view restaurant information, browse menus with detailed dish information, add items to shopping cart, remove items, complete purchase by filling out delivery forms. I used React, Redux, Styled-components and API integration."
-        imageSrc="/img/Efood.png"
-        altText="imagem 2"
-        link="https://efood-teal-eight.vercel.app/"
-      />*/}
 
       <ProjectCard
         description=" Projeto freelancer realizado para o engenheiro André Fruet. Esta landing page foi desenvolvida utilizando o construtor de sites da Hostinger, proporcionando uma solução rápida e econômica. Ao aproveitar as ferramentas da plataforma, garantimos uma entrega eficiente sem abrir mão de um design profissional e visualmente atraente."
@@ -50,33 +42,18 @@ const Portfolio = () => {
         link="https://feiramodanordeste.com.br"
       />
       <ProjectCard
-        description=" Trabalho freelancer desenvolvido para o engenheiro Alison Brito. O site é uma landing page criada com o construtor de sites da Hostinger. A escolha dessa plataforma permitiu entregar uma solução rápida e acessível, garantindo um site funcional e visualmente agradável, dentro do prazo e orçamento definidos."
-        imageSrc="\img\alisonBritoimg.png"
+        description="Um site moderno para a BartGym, apresentando a estrutura, os benefícios e os planos de assinatura. Possui um design limpo, navegação intuitiva e uma seção de contato para agendamento de aulas. Foi desenvolvido para atrair novos clientes e fornecer informações relevantes aos membros."
+        imageSrc="\img\bartGym.png"
         altText="imagem 2"
-        link="https://alisonbritoeng.com.br"
+        link="https://bart-gym.vercel.app"
         className="destaque"
+        github="https://github.com/felipebart99/BartGym"
       />
       <ProjectCard
-        description="Site clone do Disney+, com adaptação para dispositivos móveis, hospedado na Vercel, desenvolvido utilizando Gulp e SASS."
-        imageSrc="\img\disneyPlusimg.png"
+        description="Projeto de um e-commerce fictício de restaurantes, onde o usuário pode escolher entre diversas opções de restaurantes, visualizar informações detalhadas, explorar os menus, adicionar e remover itens do carrinho e finalizar a compra preenchendo os dados de entrega. Desenvolvido com React, Redux, Styled-components e integração com API."
+        imageSrc="/img/Efood.png"
         altText="imagem 2"
-        link="https://clone-disneyplus-wtgy.vercel.app"
-        github="https://github.com/felipebart99/clone_disneyplus"
-      />
-      <ProjectCard
-        description="Criei uma lista de contatos com funções para adicionar, remover, editar e excluir entradas. Além disso, a lista possui filtro por tipo e barra de pesquisa. Utilizei React Redux neste projeto."
-        imageSrc="\img\listaContatos.png"
-        altText="imagem 2"
-        link="https://contatos-react-redux.vercel.app/"
-        className="destaque"
-        github="https://github.com/felipebart99/ContatosReactRedux"
-      />
-      <ProjectCard
-        description="Desenvolvi um site para promover a série Cobra Kai, utilizando HTML, CSS e Gulp para otimizar as imagens."
-        imageSrc="\img\Cobrakai.png"
-        altText="imagem 2"
-        link="https://cobrakai.vercel.app/"
-        github="https://github.com/felipebart99/cobrakai"
+        link="https://efood-teal-eight.vercel.app/"
       />
       <ProjectCard
         description="Desenvolvi um aplicativo em React Native para monitorar a umidade do solo. O MVP foi entregue com coleta de dados via porta serial e disponibilização em um servidor. O servidor foi desenvolvido com Node.js e Express."
@@ -87,26 +64,44 @@ const Portfolio = () => {
         github="https://github.com/felipebart99/Horta"
       />
       <ProjectCard
+        description="Site clone do Disney+, com adaptação para dispositivos móveis, hospedado na Vercel, desenvolvido utilizando Gulp e SASS."
+        imageSrc="\img\disneyPlusimg.png"
+        altText="imagem 2"
+        link="https://clone-disneyplus-wtgy.vercel.app"
+        github="https://github.com/felipebart99/clone_disneyplus"
+      />
+      <ProjectCard
+        description="Desenvolvi um site responsivo e otimizado para SEO para uma psicóloga, com foco em melhorar a visibilidade online e facilitar o agendamento de consultas. O projeto incluiu a criação de uma interface intuitiva, integração com ferramentas de comunicação (como WhatsApp) e aplicação de boas práticas de design para garantir uma experiência fluida e acessível em todos os dispositivos."
+        imageSrc="\img\vanuzaSiteimg.png"
+        altText="imagem 2"
+        className="destaque"
+        link="https://vanuza-site.vercel.app"
+        github="https://github.com/felipebart99/VanuzaSite"
+      />
+      <ProjectCard
+        description="Desenvolvi um site para promover a série Cobra Kai, utilizando HTML, CSS e Gulp para otimizar as imagens."
+        imageSrc="\img\Cobrakai.png"
+        altText="imagem 2"
+        link="https://cobrakai.vercel.app/"
+        github="https://github.com/felipebart99/cobrakai"
+      />
+      <ProjectCard
+        description="Criei uma lista de contatos com funções para adicionar, remover, editar e excluir entradas. Além disso, a lista possui filtro por tipo e barra de pesquisa. Utilizei React Redux neste projeto."
+        imageSrc="\img\listaContatos.png"
+        altText="imagem 2"
+        link="https://contatos-react-redux.vercel.app/"
+        className="destaque"
+        github="https://github.com/felipebart99/ContatosReactRedux"
+      />
+
+      <ProjectCard
         description="Jogo do Mario desenvolvido com HTML, CSS e JavaScript. O objetivo do jogo é pular os obstáculos que aparecem no caminho sem tocá-los."
         imageSrc="\img\imgJogoMario.jpeg"
         altText="imagem 2"
         link="https://jogo-mario-coral.vercel.app"
         github="https://github.com/felipebart99/jogoMario"
       />
-      <ProjectCard
-        description="Landing page criada para divulgar o trabalho do tatuador Danilo, construída utilizando as ferramentas do construtor de sites da Hostinger."
-        imageSrc="\img\niloTattooimg.png"
-        altText="imagem 2"
-        link="https://nilotattoo.site"
-        className="destaque"
-      />
-      <ProjectCard
-        description="Desenvolvi um site responsivo e otimizado para SEO para uma psicóloga, com foco em melhorar a visibilidade online e facilitar o agendamento de consultas. O projeto incluiu a criação de uma interface intuitiva, integração com ferramentas de comunicação (como WhatsApp) e aplicação de boas práticas de design para garantir uma experiência fluida e acessível em todos os dispositivos."
-        imageSrc="\img\vanuzaSiteimg.png"
-        altText="imagem 2"
-        link="https://vanuza-site.vercel.app"
-        github="https://github.com/felipebart99/VanuzaSite"
-      />
+
       <ProjectCard
         description="Site ficcional criado para a venda de um curso de inglês, desenvolvido com Bootstrap."
         imageSrc="\img\EnglishCourseimg.png"
