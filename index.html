@@ -1,24 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Felipe Bartolomeu</title>
-    <!-- No index.html, dentro da tag <head> -->
+
+    <!-- Título otimizado -->
+    <title>
+      Criação de Sites Profissionais | FelipeBart.Dev - Desenvolvedor Front-end
+    </title>
+
+    <!-- Descrição otimizada -->
+    <meta
+      name="description"
+      content="Criação de sites profissionais, landing pages e sistemas personalizados para empresas e autônomos. Sites modernos, rápidos e responsivos. Desenvolvido por Felipe Bart, especialista em front-end."
+    />
+
+    <!-- Palavras-chave -->
+    <meta
+      name="keywords"
+      content="criação de sites, site profissional, desenvolvimento web, landing page, freelancer front-end, Recife, felipebart"
+    />
+
+    <!-- Open Graph -->
+    <meta
+      property="og:title"
+      content="Criação de Sites Profissionais | FelipeBart.Dev"
+    />
+    <meta
+      property="og:description"
+      content="Desenvolvimento de sites modernos e de alta performance para empresas e profissionais."
+    />
+    <meta
+      property="og:image"
+      content="https://felipebart.dev.com.br/fotoFelipeDev.png"
+    />
+    <meta property="og:url" content="https://felipebart.dev.com.br" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Criação de Sites Profissionais | FelipeBart.Dev"
+    />
+    <meta
+      name="twitter:description"
+      content="Soluções digitais rápidas e eficientes para o seu negócio."
+    />
+    <meta
+      name="twitter:image"
+      content="https://felipebart.dev.com.br/fotoFelipeDev.png"
+    />
+
+    <!-- Schema.org JSON-LD para SEO (LocalBusiness) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "FelipeBart.Dev",
+        "description": "Criação de sites profissionais e landing pages de alta conversão.",
+        "url": "https://felipebart.dev.com.br",
+        "logo": "https://felipebart.dev.com.br/logoFelipeBart.jpeg",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Recife",
+          "addressRegion": "PE",
+          "addressCountry": "BR"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "Customer Support",
+          "email": "felipebart1999@gmail.com",
+          "availableLanguage": "pt-BR"
+        }
+      }
+    </script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+
+    <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
+  </head>
 
-    <!-- No final do body, adicione o script do Bootstrap -->
+  <body>
+    <div id="root"></div>
+
+    <!-- Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
       defer
     ></script>
-  </head>
-  <body>
-    <div id="root"></div>
+
+    <!-- Vite/React -->
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

@@ -95,11 +95,11 @@ const Portfolio = () => {
       />
 
       <ProjectCard
-        description="Jogo do Mario desenvolvido com HTML, CSS e JavaScript. O objetivo do jogo é pular os obstáculos que aparecem no caminho sem tocá-los."
-        imageSrc="\img\imgJogoMario.jpeg"
+        description="Projeto de Landing Page criado com HTML, CSS e JavaScript, inspirado no jogo GTA V."
+        imageSrc="/img/imgGta.png"
         altText="imagem 2"
-        link="https://jogo-mario-coral.vercel.app"
-        github="https://github.com/felipebart99/jogoMario"
+        link="https://gta-v-mu.vercel.app"
+        github="https://github.com/felipebart99/GTA-V"
       />
 
       <ProjectCard
@@ -126,12 +126,13 @@ const Portfolio = () => {
         github="https://github.com/felipebart99/todoList"
       />
       <ProjectCard
-        description="Projeto de Landing Page criado com HTML, CSS e JavaScript, inspirado no jogo GTA V."
-        imageSrc="/img/imgGta.png"
+        description="Aplicativo de clima integrado à API OpenWeather. Além da temperatura, exibe dados de umidade, velocidade do vento e condição atual do céu. Projeto desenvolvido com HTML, CSS e JavaScript."
+        imageSrc="/img/imgApiClima.png"
         altText="imagem 2"
-        link="https://gta-v-mu.vercel.app"
-        github="https://github.com/felipebart99/GTA-V"
+        link="https://api-clima-snowy.vercel.app"
+        github="https://github.com/felipebart99/API-clima"
       />
+
       <ProjectCard
         description="Calculadora desenvolvida com React.js, onde utilizei pela primeira vez containers do Material UI para estruturar o layout. Este projeto me ajudou a consolidar a lógica necessária para lidar com operações matemáticas por meio do Hook useState."
         imageSrc="/img/imgCalculator.png"
@@ -139,13 +140,6 @@ const Portfolio = () => {
         link="https://calculadora-react-eta-sable.vercel.app"
         className="destaque"
         github="https://github.com/felipebart99/Calculadora-React"
-      />
-      <ProjectCard
-        description="Aplicativo de clima integrado à API OpenWeather. Além da temperatura, exibe dados de umidade, velocidade do vento e condição atual do céu. Projeto desenvolvido com HTML, CSS e JavaScript."
-        imageSrc="/img/imgApiClima.png"
-        altText="imagem 2"
-        link="https://api-clima-snowy.vercel.app"
-        github="https://github.com/felipebart99/API-clima"
       />
     </div>
   );
