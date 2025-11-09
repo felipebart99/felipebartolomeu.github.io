@@ -11,7 +11,8 @@ const Home = () => {
         <div className="d-flex align-items-center mt-3 mb-3">
           <div className="d-flex flex-column gap-icons  text-center">
             <h2 className="fw-bold responsive-heading mb-5">
-              <Typewriter text="Criação de sites Profissionais" speed={130} />
+              Criação de sites
+              <Typewriter text=" Profissionais" speed={130} />
             </h2>
             <p className="fw-bold txt">
               Seu negócio merece um site profissional!! <br />
