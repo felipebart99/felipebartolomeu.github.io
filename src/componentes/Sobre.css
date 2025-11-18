@@ -5,6 +5,9 @@
   justify-content: center;
   gap: 60px;
 
+  h2 {
+    display: inline-block;
+  }
   h3 {
     color: rgba(255, 255, 255, 0.647);
   }
@@ -19,7 +22,7 @@
 @media (max-width: 1024px) {
   #sobre {
     flex-direction: column;
-    padding: 20% 80%;
+    padding: 20%;
     img {
       max-height: 300px;
       border-radius: 2em;

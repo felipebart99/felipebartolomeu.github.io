@@ -25,12 +25,14 @@ const Sobre = () => {
           disso, criei aplicações que coletam dados de sensores DHT e exibem
           essas informações em um aplicativo móvel, notificando os usuários
           quando os valores ultrapassam os limites desejados.
+          <br />
           <br /> ● Desenvolvimento de sites utilizando React.js e Bootstrap
           <br /> ● Conhecimento em metodologias ágeis como Scrum
-          <br /> ● Noções básicas de design de interface com Figma Sou
-          reconhecido pela minha sociabilidade e tranquilidade, bem como pela
-          facilidade em assimilar novos conteúdos. Posso afirmar com convicção
-          que minhas 3 principais soft skills são trabalho em equipe,
+          <br /> ● Noções básicas de design de interface com Figma
+          <br />
+          <br /> Sou reconhecido pela minha sociabilidade e tranquilidade, bem
+          como pela facilidade em assimilar novos conteúdos. Posso afirmar com
+          convicção que minhas 3 principais soft skills são trabalho em equipe,
           pontualidade e princípios éticos.
         </p>
 
