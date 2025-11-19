@@ -10,6 +10,7 @@
   }
   img {
     max-height: 600px;
+    width: auto;
     border-radius: 2em;
   }
   .principal {
@@ -19,10 +20,10 @@
 @media (max-width: 1024px) {
   #sobre {
     flex-direction: column;
-    padding: 20% 80%;
+    padding: 40px 20px;
     img {
       max-height: 300px;
-      border-radius: 2em;
+      width: auto;
     }
   }
 }

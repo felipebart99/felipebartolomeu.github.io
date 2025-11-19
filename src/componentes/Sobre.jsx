@@ -1,7 +1,6 @@
 import eu from "/img/fotoFelipeDev.png";
 import Typewriter from "../componentes/Typewriter";
 import "./Sobre.css";
-//import { whatsAppLink } from "./WhatsApp/WhatsAppLink";
 
 const Sobre = () => {
   return (

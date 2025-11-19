@@ -6,23 +6,28 @@
   padding: 40px;
   gap: 150px;
   margin-bottom: 80px;
-  h3 {
-    color: rgba(255, 255, 255, 0.647);
-  }
-  .principal li {
-    font-size: xx-large;
-    margin-bottom: 40px;
-  }
-  ul li::marker {
-    color: rgb(202, 5, 5); /* cor da bolinha */
-  }
-  img {
-    max-height: 600px;
-    border-radius: 2em;
-  }
-  .principal {
-    max-width: 600px;
-  }
+}
+
+#comum h3 {
+  color: rgba(255, 255, 255, 0.647);
+}
+
+#comum .principal li {
+  font-size: xx-large;
+  margin-bottom: 40px;
+}
+
+#comum ul li::marker {
+  color: rgb(202, 5, 5);
+}
+
+#comum img {
+  max-height: 600px;
+  border-radius: 2em;
+}
+
+#comum .principal {
+  max-width: 600px;
 }
 
 .animar {
@@ -61,10 +66,10 @@
     flex-direction: column-reverse;
     margin: 80px 0px 0px 0px;
     gap: 50px;
+  }
 
-    img {
-      max-height: 300px;
-      border-radius: 2em;
-    }
+  #comum img {
+    max-height: 300px;
+    border-radius: 2em;
   }
 }

@@ -35,8 +35,8 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 2 por linha */
     padding: 0px 40px;
-    justify-items: center;  /* alinha os cards horizontalmente */
-    align-items: start;     /* impede que fiquem desalinhados verticalmente */
+    justify-items: center; /* alinha os cards horizontalmente */
+    align-items: start; /* impede que fiquem desalinhados verticalmente */
 
     gap: 30px;
   }
@@ -88,22 +88,21 @@
     .projects-grid {
       grid-template-columns: 1fr; /* vira 1 por linha no celular */
     }
-   
 
-  .estilo1 {
-    flex-direction: column-reverse;
-    padding-bottom: 10px;
-    margin: 20px 0 40px 0px;
-    padding: 0px;
-    width: 80vw;
-  }
+    .estilo1 {
+      flex-direction: column-reverse;
+      padding-bottom: 10px;
+      margin: 20px 0 40px 0px;
+      padding: 0px;
+      width: 80vw;
+    }
 
-  .imgP {
-    max-width: 80vw;
-    width: 100%;
-    height: auto;
-    max-height: 250px;
-    border-radius: 1rem;
+    .imgP {
+      max-width: 80vw;
+      width: 100%;
+      height: auto;
+      max-height: 250px;
+      border-radius: 1rem;
+    }
   }
 }
-
