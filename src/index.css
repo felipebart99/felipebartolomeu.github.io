@@ -1,0 +1,8 @@
+.home-page {
+  background-color: #0d0d0f; /* fallback antes da imagem */
+  background-image: url(/img/banner-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
